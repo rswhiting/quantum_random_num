@@ -26,7 +26,7 @@ def main():
         # calling the ranom number function and append the return to the list
         random_numbers_list.append(get_random_number(quantum_engine))
     # Flushes the quantum engine from memory
-    quantuapt m_engine.flush()
+    quantum_engine.flush()
     print('Random numbers', random_numbers_list)
 
 if __name__ == '__main__':
